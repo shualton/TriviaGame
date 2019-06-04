@@ -14,18 +14,18 @@ var questions = [{
     divClass: ".numberOfGames"
 },
 {
-    ques: "Which of these was never a starter pokemon in a core series game?",
+    ques: "Which of these was never a starter Pokemon in a core series game?",
     ans: ["Charmander", "Totodile", "Pikachu", "Meowth"],
     name: "starter",
     correct: "Meowth",
     divClass: ".starter"
 },
 {
-    ques: "Who was Nike's first professional athlete endorser?",
-    ans: ["John McEnroe", "Michael Jordan", "Ilie Nastase", "Steve Prefontaine"],
-    name: "endorser",
-    correct: "Ilie Nastase",
-    divClass: ".endorser"
+    ques: "How many Pokemon movies have been released in theaters?",
+    ans: ["30", "27", "22", "19"],
+    name: "movies",
+    correct: "22",
+    divClass: ".movies"
 },
 {
     ques: "When was the first Air Force 1 made?",
