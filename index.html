@@ -4,24 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pokemon Trivia Game</title>
+    <title>Pokémon Trivia Game</title>
     <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
-    <div id="splashscreen">
-        <div class="splashBox">
+    <div id="Intro">
+        <div class="Intro">
             <h3>Welcome to</h3>
             <h1>Pokemon Trivia!</h1>
             <hr />
-            <p>You have 60 seconds to guess 10 questions.</p>
+            <p>The time limit is 1 minute. Good luck!</p>
             <br />
             <p>Click To Start</p>
             <button type="button" id="start-btn" class="btn btn-primary black-background white">START</button>
@@ -29,9 +26,10 @@
     </div>
 
     <div id="answerScreen">
-        <div class="splashBox2">
-            <h2>SCORE:</h2>
+        <div class="answerPopup">
+            <h2>Alright, lets see how you did!</h2>
             <hr />
+            <p id = "scoreMessage"></p>
             <p id="correctScreen">Correct Answers: </p>
             <p id="wrongScreen">Wrong Answers: </p>
         </div>
@@ -49,17 +47,15 @@
     </div>
 
     <div class="container">
-        <header>Nike Trivia!</header>
+        <header>PokéTrivia!</header>
         <div class="row timeRemain">Time Remaining:
             <div id="time-remain">60</div>
         </div>
 
         <div class="questions">
             <button type="button" class="btn btn-primary black-background white" id="sub-but">Submit</button>
-            <!-- end equestions-->
         </div>
 
-        <!-- Main Container-->
     </div>
     <script src="assets/javascript/app.js "></script>
 </body>

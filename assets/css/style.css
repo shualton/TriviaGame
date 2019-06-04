@@ -1,17 +1,16 @@
 body {
     background-image: url('../images/background.jpg');
-    font-family: 'Anton', sans-serif;
-    color: black;
+    font-family: 'Luckiest Guy', cursive;    color: black;
     letter-spacing: 2px;
 }
 
 h1 {
     font-size: 60px;
-    color: orange;
+    color: red;
 }
 
-#splashscreen {
-    background-image: url('../images/nike-bg.png');
+#Intro {
+    background-color: yellow;
     background-repeat: no-repeat;
     width: 35%;
     margin: 0 auto;
@@ -26,14 +25,14 @@ h1 {
     color: #ffffff;
 }
 
-.splashBox {
+.Intro {
     margin: 0 auto;
     text-align: center;
     padding: 4%;
     margin-top: 40%;
 }
 
-.splashBox2 {
+.answerPopup {
     margin: 0 auto;
     text-align: center;
     padding: 4%;
@@ -46,12 +45,12 @@ h1 {
 }
 
 label {
-    color: orange;
+    color: red;
 }
 
 #answerScreen {
     display: none;
-    background-image: url('../images/nike-bg.png');
+    background-color: yellow;
     background-repeat: no-repeat;
     width: 40%;
     margin: 0 auto;
@@ -62,7 +61,7 @@ label {
 
 #timesUp {
     display: none;
-    background-image: url('../images/nike-bg.png');
+    background-color: yellow;
     background-repeat: no-repeat;
     width: 35%;
     margin: 0 auto;
@@ -85,7 +84,7 @@ label {
 }
 
 body .container {
-    background-image: url('../images/nike-bg.png');
+    background-color: yellow;
     height: 100%;
     text-align: center;
     display: none;
